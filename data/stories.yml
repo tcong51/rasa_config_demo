@@ -2,29 +2,43 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: work
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-
-- story: sad path 1
+  - intent: report
+  - action: action_report
+- story: work1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
+  - intent: dayM_to_dayM
+  - action: action_report
+  - intent: typing_type
+  - action: action_report
+  - intent: typing_category
+  - action: action_report
+  - intent: typing_unit
+  - action: action_report
+  - intent: typing_category_type
+  - action: action_report
+- story: job
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: typing_type
+  - action: action_report
+- story: job2
+  steps:
+  - intent: typing_unit
+  - action: action_report
+- story: job3
+  steps:
+  - intent: typing_category
+  - action: action_report
+- story: job4
+  steps:
+  - intent: typing_category_type
+  - action: action_report
+- story: job5
+  steps:
+  - intent: typing_time
+  - action: action_report

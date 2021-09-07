@@ -1,0 +1,472 @@
+[
+  {
+    "text": "chi nhánh hậu giang",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "hậu giang",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9881067276000977,
+        "value": "giang",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thị xã Bạc Liêu tỉnh Bạc Liêu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Thị xã Bạc Liêu",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9894129633903503,
+        "value": "Thị xã",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "huyện Chợ Lách tỉnh Bến Tre",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "Chợ Lách",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9994997978210449,
+        "value": "Chợ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xuất báo cáo lưu lượng Thành phố Cà Mau](unit_report)",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "lưu lượng",
+        "entity": "category_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9993849992752075,
+        "value": "lưu lượng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.5416237711906433,
+        "value": "phố Cà",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "huyện Châu Thành A tỉnh Hậu Giang",
+    "entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "value": "Châu Thành A",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 6,
+        "end": 18,
+        "confidence_entity": 0.9921261072158813,
+        "value": "Châu Thành A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 28,
+        "end": 33,
+        "confidence_entity": 0.6617265343666077,
+        "value": "Giang",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bật máy",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Bật máy",
+        "entity": "type_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type_report",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.8500844836235046,
+        "value": "máy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "huyện Giang Thành tỉnh Kiên Giang",
+    "entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "value": "Giang Thành",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 6,
+        "end": 27,
+        "confidence_entity": 0.5459429025650024,
+        "value": "Giang Thành tỉnh Kiên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thị xã Sa Đéc tỉnh Đồng Tháp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Thị xã Sa Đéc",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9733744263648987,
+        "value": "Thị xã",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xuất báo cáo lưu lượng Thị xã Ngã Bảy](unit_report) tỉnh Hậu Giang",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "lưu lượng",
+        "entity": "category_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9993783235549927,
+        "value": "lưu lượng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.9716642498970032,
+        "value": "Ngã",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xuất báo cáo lưu lượng Thành phố Sóc Trăng",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "lưu lượng",
+        "entity": "category_report"
+      },
+      {
+        "start": 23,
+        "end": 42,
+        "value": "Thành phố Sóc Trăng",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9996674060821533,
+        "value": "lưu lượng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 23,
+        "end": 32,
+        "confidence_entity": 0.9273465275764465,
+        "value": "Thành phố",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.97107994556427,
+        "value": "Trăng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Phát triển thuê bao Khách hàng doanh nghiệp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "Phát triển thuê bao",
+        "entity": "category_report"
+      },
+      {
+        "start": 20,
+        "end": 43,
+        "value": "Khách hàng doanh nghiệp",
+        "entity": "type_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 0,
+        "end": 19,
+        "confidence_entity": 0.9370548725128174,
+        "value": "Phát triển thuê bao",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "type_report",
+        "start": 20,
+        "end": 30,
+        "confidence_entity": 0.6162680387496948,
+        "value": "Khách hàng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 31,
+        "end": 43,
+        "confidence_entity": 0.65,
+        "value": "doanh nghiệp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "huyện Châu Thành tỉnh Đồng Tháp tỉnh Đồng Tháp",
+    "entities": [
+      {
+        "start": 6,
+        "end": 31,
+        "value": "Châu Thành tỉnh Đồng Tháp",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unit_report",
+        "start": 6,
+        "end": 21,
+        "confidence_entity": 0.9948182702064514,
+        "value": "Châu Thành tỉnh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 22,
+        "end": 46,
+        "confidence_entity": 0.5099355578422546,
+        "value": "Đồng Tháp tỉnh Đồng Tháp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Khách hàng doanh nghiệp",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "Khách hàng doanh nghiệp",
+        "entity": "type_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "type_report",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.7980543375015259,
+        "value": "Khách hàng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 11,
+        "end": 23,
+        "confidence_entity": 0.63,
+        "value": "doanh nghiệp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xuất báo cáo lưu lượng phòng kế toán",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "lưu lượng",
+        "entity": "category_report"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "value": "phòng kế toán",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9992597699165344,
+        "value": "lưu lượng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.941948413848877,
+        "value": "phòng kế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xuất báo cáo lưu lượng huyện Châu Thành tỉnh Đồng Tháp tỉnh Đồng Tháp",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "lưu lượng",
+        "entity": "category_report"
+      },
+      {
+        "start": 29,
+        "end": 54,
+        "value": "Châu Thành tỉnh Đồng Tháp",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9996801614761353,
+        "value": "lưu lượng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 29,
+        "end": 69,
+        "confidence_entity": 0.536554753780365,
+        "value": "Châu Thành tỉnh Đồng Tháp tỉnh Đồng Tháp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xuất báo cáo doanh thu tài khoản chính huyện Châu Thành tỉnh Đồng Tháp tỉnh Đồng Tháp",
+    "entities": [
+      {
+        "start": 13,
+        "end": 38,
+        "value": "doanh thu tài khoản chính",
+        "entity": "category_report"
+      },
+      {
+        "start": 45,
+        "end": 70,
+        "value": "Châu Thành tỉnh Đồng Tháp",
+        "entity": "unit_report"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category_report",
+        "start": 13,
+        "end": 38,
+        "confidence_entity": 0.9991948008537292,
+        "value": "doanh thu tài khoản chính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 45,
+        "end": 60,
+        "confidence_entity": 0.9973709583282471,
+        "value": "Châu Thành tỉnh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "unit_report",
+        "start": 61,
+        "end": 85,
+        "confidence_entity": 0.6177085041999817,
+        "value": "Đồng Tháp tỉnh Đồng Tháp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

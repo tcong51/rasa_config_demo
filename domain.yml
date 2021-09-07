@@ -1,34 +1,102 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
 session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  session_expiration_time: 0.4
+  carry_over_slots_to_new_session: false
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- report:
+    use_entities: true
+- dayM_to_dayM:
+    use_entities: true
+- typing_unit:
+    use_entities: true
+- typing_category:
+    use_entities: true
+- typing_type:
+    use_entities: true
+- typing_category_type:
+    use_entities: true
+- typing_time:
+    use_entities: true
+entities:
+- category_report
+- type_report
+- unit_report
+- day_report
+- month_report
+- quarter_report
+- year_report
+- day_m_end
+slots:
+  category_report:
+    type: text
+    auto_fill: true
+  type_report:
+    type: text
+    auto_fill: true
+  unit_report:
+    type: text
+    auto_fill: true
+  day_report:
+    type: text
+    auto_fill: true
+  month_report:
+    type: text
+    auto_fill: true
+  quarter_report:
+    type: text
+    auto_fill: true
+  year_report:
+    type: text
+    auto_fill: true
+  day_m_end:
+    type: text
+    auto_fill: true
+responses:
+  utter_time:
+  - text: Vui lòng nhập thời gian!
+  - text: Chưa có thời gian báo cáo! Vui lòng nhập!
+  utter_typing_type:
+  - text: Vui lòng nhập loại báo cáo!
+  - text: Thiếu loại báo cáo! Vui lòng nhập thêm ạ!
+  utter_typing_category:
+  - text: Vui lòng nhập tên và loại báo cáo!
+  - text: Thiếu tên và loại báo cáo! Vui lòng nhập thêm ạ!
+  utter_typing_unit:
+  - text: Vui lòng nhập đơn vị!
+  - text: Thiếu đơn vị! Vui lòng nhập thêm ạ!
+  utter_greet:
+  - text: Xin chào! Anh/chị muốn xuất báo cáo chứ? Hãy cho em thông tin!
+  - text: Anh/chị muốn xuất báo cáo chứ? Hãy cho em thông tin!
+  - text: Hân hạnh được phục vụ! Hãy cho em thông tin
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Tạm biệt! Have a good day!
+  - text: Rất vui vì được phục vụ! See you later!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+actions:
+- action_report
+forms: {}
+e2e_actions: []

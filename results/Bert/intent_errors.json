@@ -1,0 +1,274 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9966078996658325
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "typing_unit",
+      "confidence": 0.28826624155044556
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4765816628932953
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.907413125038147
+    }
+  },
+  {
+    "text": "so saad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.40398430824279785
+    }
+  },
+  {
+    "text": "Doanh thu tài khoản chính",
+    "intent": "typing_category",
+    "intent_prediction": {
+      "name": "typing_category_type",
+      "confidence": 0.8418092727661133
+    }
+  },
+  {
+    "text": "Khách hàng cá nhân",
+    "intent": "typing_type",
+    "intent_prediction": {
+      "name": "typing_unit",
+      "confidence": 0.515788197517395
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "typing_unit",
+      "confidence": 0.2860572934150696
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8601648807525635
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5494120717048645
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3092067241668701
+    }
+  },
+  {
+    "text": "extremely good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6410090923309326
+    }
+  },
+  {
+    "text": "Thuê bao VLR",
+    "intent": "typing_category",
+    "intent_prediction": {
+      "name": "typing_category_type",
+      "confidence": 0.9927400350570679
+    }
+  },
+  {
+    "text": "Data",
+    "intent": "typing_type",
+    "intent_prediction": {
+      "name": "typing_category_type",
+      "confidence": 0.7755112648010254
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4231800138950348
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9963879585266113
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.549195408821106
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9410633444786072
+    }
+  },
+  {
+    "text": "my day was horrible",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3255392611026764
+    }
+  },
+  {
+    "text": "Phát triển thuê bao",
+    "intent": "typing_category",
+    "intent_prediction": {
+      "name": "typing_category_type",
+      "confidence": 0.9835456609725952
+    }
+  },
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "typing_category",
+      "confidence": 0.32160425186157227
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.40675437450408936
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.40148207545280457
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.20982526242733002
+    }
+  },
+  {
+    "text": "I am disappointed",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6071260571479797
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.27801719307899475
+    }
+  },
+  {
+    "text": "Kết quả thực hiện các chỉ tiêu kinh doanh",
+    "intent": "typing_category",
+    "intent_prediction": {
+      "name": "dayM_to_dayM",
+      "confidence": 0.9891537427902222
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "typing_type",
+      "confidence": 0.3423902690410614
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.2780193090438843
+    }
+  },
+  {
+    "text": "so good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8947120308876038
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5169560313224792
+    }
+  },
+  {
+    "text": "Doanh thu thông tin",
+    "intent": "typing_category",
+    "intent_prediction": {
+      "name": "typing_category_type",
+      "confidence": 0.9023075103759766
+    }
+  },
+  {
+    "text": "Lưu lượng",
+    "intent": "typing_category",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5004076361656189
+    }
+  },
+  {
+    "text": "Khách hàng doanh nghiệp",
+    "intent": "typing_type",
+    "intent_prediction": {
+      "name": "typing_category",
+      "confidence": 0.4969681203365326
+    }
+  }
+]

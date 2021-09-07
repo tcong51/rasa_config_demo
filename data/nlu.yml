@@ -90,3 +90,1124 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+
+
+- intent: typing_category_type
+  examples: |
+    - [Doanh thu tài khoản chính](category_report) [Viễn thông trả trước](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Viễn thông trả sau](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Viễn thông trả trước và trả sau](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả trước](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả sau](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả trước và trả sau](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Đa dịch vụ trả trước](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Đa dịch vụ trả sau](type_report)
+    - [Doanh thu tài khoản chính](category_report) [Đa dịch vụ trả trước và trả sau](type_report)
+    - [Thuê bao VLR](category_report) [Bật máy](type_report)
+    - [Thuê bao VLR](category_report) [3G](type_report)
+    - [Thuê bao VLR](category_report) [4G](type_report)
+    - [Doanh thu thông tin](category_report) [Theo loại dịch vụ trả trước](type_report)
+    - [Doanh thu thông tin](category_report) [Theo loại dịch vụ trả sau](type_report)
+    - [Doanh thu thông tin](category_report) [Theo loại dịch vụ trả trước và trả sau](type_report)
+    - [Doanh thu thông tin](category_report) [Theo chi nhánh trả trước](type_report)
+    - [Doanh thu thông tin](category_report) [Theo chi nhánh trả sau](type_report)
+    - [Doanh thu thông tin](category_report) [Theo chi nhánh trả trước và trả sau](type_report)
+    - [Phát triển thuê bao](category_report) [Trả trước](type_report)
+    - [Phát triển thuê bao](category_report) [Trả sau](type_report)
+    - [Phát triển thuê bao](category_report) [Khách hàng cá nhân](type_report)
+    - [Phát triển thuê bao](category_report) [Khách hàng doanh nghiệp](type_report)
+    - [Lưu lượng](category_report) [Thoại](type_report)
+    - [Lưu lượng](category_report) [Data](type_report)
+
+- intent: typing_unit
+  examples: |
+    - [Công ty 9](unit_report)
+    - [công ty 9](unit_report)
+    - Chi nhánh [Cần Thơ](unit_report)
+    - chi nhánh [cần thơ](unit_report)
+    - [Phòng Khách hàng cá nhân](unit_report)
+    - [phòng khách hàng cá nhân](unit_report)
+    - [Phòng Dịch vụ Kỹ thuật](unit_report)
+    - [phòng dịch vụ Kỹ thuật](unit_report)
+    - [Phòng Tổng hợp](unit_report)
+    - [phòng tổng hợp](unit_report)
+    - [Phòng Chăm sóc khách hàng](unit_report)
+    - [phòng chăm sóc khách hàng](unit_report)
+    - [Phòng Kế toán](unit_report)
+    - [phòng kế toán](unit_report)
+    - [Tổ Thẩm định](unit_report)
+    - [tổ thẩm định](unit_report)
+    - Chi nhánh [Trà Vinh](unit_report)
+    - chi nhánh [trà vinh](unit_report)
+    - [Tổ Xét thầu](unit_report)
+    - [tổ xét thầu](unit_report)
+    - Chi nhánh [Vĩnh Long](unit_report)
+    - chi nhánh [vĩnh long](unit_report)
+    - Chi nhánh [Đồng Tháp](unit_report)
+    - chi nhánh [đồng tháp](unit_report)
+    - Chi nhánh [Bến Tre](unit_report)
+    - chi nhánh [bến tre](unit_report)
+    - Chi nhánh [Tiền Giang](unit_report)
+    - chi nhánh [tiền giang](unit_report)
+    - Chi nhánh [Phú Quốc](unit_report)
+    - chi nhánh [phú quốc](unit_report)
+    - Chi nhánh [An Giang](unit_report)
+    - chi nhánh [an giang](unit_report)
+    - Chi nhánh [Cà Mau](unit_report)
+    - chi nhánh [cà mau](unit_report)
+    - Chi nhánh [Hậu Giang](unit_report)
+    - chi nhánh [hậu giang](unit_report)
+    - Chi nhánh [Kiên Giang](unit_report)
+    - chi nhánh [kiên giang](unit_report)
+    - Chi nhánh [Sóc Trăng](unit_report)
+    - chi nhánh [sóc trăng](unit_report)
+    - huyện [Châu Phú](unit_report) tỉnh An Giang
+    - huyện [Châu Thành tỉnh An Giang](unit_report)
+    - [Châu Thành tỉnh An Giang](unit_report)
+    - [Thị xã Châu Đốc](unit_report) tỉnh An Giang
+    - huyện [Chợ Mới](unit_report) tỉnh An Giang
+    - huyện [Thoại Sơn](unit_report) tỉnh An Giang
+    - huyện [Tri Tôn](unit_report) tỉnh An Giang
+    - [Thị xã Châu Đốc](unit_report) tỉnh An Giang
+    - huyện [Tịnh Biên](unit_report) tỉnh An Giang
+    - huyện [Phú Tân tỉnh An Giang](unit_report) 
+    - huyện [An Phú](unit_report) tỉnh An Giang
+    - huyện [Hòa Bình](unit_report) tỉnh Bạc Liêu
+    - huyện [Giá Rai](unit_report) tỉnh Bạc Liêu
+    - huyện [Vĩnh Lợi](unit_report) tỉnh Bạc Liêu
+    - huyện [Hồng Dân](unit_report) tỉnh Bạc Liêu
+    - [Thị xã Bạc Liêu](unit_report) tỉnh Bạc Liêu
+    - huyện [Đông Hải](unit_report) tỉnh Bạc Liêu
+    - huyện [Phước Long](unit_report) tỉnh Bạc Liêu
+    - huyện [Cái Nước](unit_report) tỉnh Cà Mau
+    - huyện [Cái Nước](unit_report) tỉnh cà mau
+    - huyện [Thới Bình](unit_report) tỉnh Cà Mau
+    - huyện [Năm Căn](unit_report) tỉnh Cà Mau
+    - huyện [Ngọc Hiển](unit_report) tỉnh Cà Mau
+    - huyện [Trần Văn Thời](unit_report) tỉnh Cà Mau
+    - huyện [Đầm Dơi](unit_report) tỉnh Cà Mau
+    - [Thành phố Cà Mau](unit_report)
+    - huyện [U Minh](unit_report) tỉnh Cà Mau
+    - huyện [Phú Tân tỉnh Cà Mau](unit_report)
+    - huyện [Châu Thành A](unit_report) tỉnh Hậu Giang
+    - huyện [Long Mỹ](unit_report) tỉnh Hậu Giang
+    - [Thị xã Ngã Bảy](unit_report) tỉnh Hậu Giang
+    - huyện [Phụng Hiệp](unit_report) tỉnh Hậu Giang
+    - [Thành phố Vị Thanh](unit_report) tỉnh Hậu Giang
+    - huyện [Vị Thuỷ](unit_report) tỉnh Hậu Giang
+    - huyện [Châu Thành tỉnh Kiên Giang](unit_report)
+    - huyện [Phú Quốc](unit_report) tỉnh Kiên Giang
+    - huyện [U Minh Thượng](unit_report) tỉnh Kiên Giang
+    - huyện [An Biên](unit_report) tỉnh Kiên Giang
+    - huyện [An Biên](unit_report) tỉnh kiên giang
+    - huyện [An Minh](unit_report) tỉnh Kiên Giang
+    - huyện [An Minh](unit_report) tỉnh kiên giang
+    - huyện [Giồng Riềng](unit_report) tỉnh Kiên Giang
+    - huyện [Giồng Riềng](unit_report) tỉnh kiên giang
+    - huyện [Gò Quao](unit_report) tỉnh Kiên Giang
+    - huyện [Gò Quao](unit_report) tỉnh kiên giang
+    - [Thị xã Hà Tiên](unit_report) tỉnh Kiên Giang
+    - huyện [Hòn Đất](unit_report) tỉnh Kiên Giang
+    - huyện [Hòn Đất](unit_report) tỉnh kiên giang
+    - huyện [Kiên Lương](unit_report) tỉnh Kiên Giang
+    - huyện [Kiên Lương](unit_report) tỉnh kiên giang
+    - huyện [Thành phố Rạch Giá](unit_report) tỉnh Kiên Giang
+    - huyện [Tân Hiệp](unit_report) tỉnh Kiên Giang
+    - huyện [Vĩnh Thuận](unit_report) tỉnh Kiên Giang
+    - huyện [Kiên Hải](unit_report) tỉnh Kiên Giang
+    - huyện [Giang Thành](unit_report) tỉnh Kiên Giang
+    - huyện [Vĩnh Châu](unit_report) tỉnh Sóc Trăng
+    - huyện [Mỹ Xuyên](unit_report) tỉnh Sóc Trăng
+    - huyện [Kế Sách](unit_report) tỉnh Sóc Trăng
+    - huyện [Long Phú](unit_report) tỉnh Sóc Trăng
+    - huyện [Ngã Năm](unit_report) tỉnh Sóc Trăng
+    - [Thành phố Sóc Trăng](unit_report)
+    - huyện [Châu Thành tỉnh Sóc Trăng](unit_report)
+    - huyện [Thạnh Trị](unit_report) tỉnh Sóc Trăng
+    - huyện [Trần Đề](unit_report) tỉnh Sóc Trăng
+    - huyện [Mỹ Tú](unit_report) tỉnh Sóc Trăng
+    - huyện [Cù Lao Dung](unit_report) tỉnh Sóc Trăng
+    - quận [Bình Thủy](unit_report) tỉnh Cần Thơ
+    - huyện [Cờ Đỏ](unit_report) tỉnh Cần Thơ
+    - quận [Ninh Kiều](unit_report) tỉnh Cần Thơ
+    - huyện [Phong Điền](unit_report) tỉnh Cần Thơ
+    - huyện [Vĩnh Thạnh](unit_report) tỉnh Cần Thơ
+    - quận [Ô Môn](unit_report) tỉnh Cần Thơ
+    - quận [Cái Răng](unit_report) tỉnh Cần Thơ
+    - quận [Thốt Nốt](unit_report) tỉnh Cần Thơ
+    - huyện [Thới Lai](unit_report) tỉnh Cần Thơ
+    - huyện [Cầu Ngang](unit_report) tỉnh Trà Vinh
+    - huyện [Duyên Hải](unit_report) tỉnh Trà Vinh
+    - huyện [Trà Cú](unit_report) tỉnh Trà Vinh
+    - [Thành phố Trà Vinh](unit_report)
+    - huyện [Châu Thành tỉnh Trà Vinh](unit_report)
+    - huyện [Cầu Kè](unit_report) tỉnh Trà Vinh
+    - huyện [Càng Long](unit_report) tỉnh Trà Vinh
+    - huyện [Tiểu Cần](unit_report) tỉnh Trà Vinh
+    - [Thị xã Duyên Hải](unit_report) tỉnh Trà Vinh
+    - huyện [Mang Thít](unit_report) tỉnh Vĩnh Long
+    - huyện [Bình Minh](unit_report) tỉnh Vĩnh Long
+    - huyện [Tam Bình](unit_report) tỉnh Vĩnh Long
+    - [Thành phố Vĩnh Long](unit_report)
+    - huyện [Vũng Liêm](unit_report) tỉnh Vĩnh Long
+    - huyện [Long Hồ](unit_report) tỉnh Vĩnh Long
+    - huyện [Trà Ôn](unit_report) tỉnh Vĩnh Long
+    - huyện [Bình Tân](unit_report) tỉnh Vĩnh Long
+    - [Thành phố Cao Lãnh](unit_report) tỉnh Đồng Tháp
+    - huyện [Hồng Ngự](unit_report) tỉnh Đồng Tháp
+    - huyện [Lai Vung](unit_report) tỉnh Đồng Tháp
+    - huyện [Lấp Vò](unit_report) tỉnh Đồng Tháp
+    - huyện [Tam Nông](unit_report) tỉnh Đồng Tháp
+    - huyện [Thanh Bình](unit_report) tỉnh Đồng Tháp
+    - huyện [Tân Hồng](unit_report) tỉnh Đồng Tháp
+    - huyện [Cao Lãnh](unit_report) tỉnh Đồng Tháp
+    - huyện [Châu Thành tỉnh Đồng Tháp](unit_report) tỉnh Đồng Tháp
+    - [Thị xã Sa Đéc](unit_report) tỉnh Đồng Tháp
+    - huyện [Tháp Mười](unit_report) tỉnh Đồng Tháp
+    - [Thị xã Hồng Ngự](unit_report) tỉnh Đồng Tháp
+    - huyện [Ba Tri](unit_report) tỉnh Bến Tre
+    - huyện [Bình Đại](unit_report) tỉnh Bến Tre
+    - huyện [Châu Thành tỉnh Bến Tre](unit_report)
+    - huyện [Giồng Trôm](unit_report) tỉnh Bến Tre
+    - huyện [Thạnh Phú](unit_report) tỉnh Bến Tre
+    - [Thành phố Bến Tre](unit_report)
+    - huyện [Mỏ Cày Bắc](unit_report) tỉnh Bến Tre
+    - huyện [Mỏ Cày Nam](unit_report) tỉnh Bến Tre
+    - huyện [Chợ Lách](unit_report) tỉnh Bến Tre
+    - huyện [Chợ Gạo](unit_report) tỉnh Tiền Giang
+    - huyện [Châu Thành tỉnh Tiền Giang](unit_report)
+    - huyện [Gò Công Đông](unit_report) tỉnh Tiền Giang
+    - huyện [Gò Công Tây](unit_report) tỉnh Tiền Giang
+    - huyện [Tân Phước](unit_report) tỉnh Tiền Giang
+    - [Thành phố Mỹ Tho](unit_report) tỉnh Tiền Giang
+    - [Thị xã Gò Công](unit_report) tỉnh Tiền Giang
+    - huyện [Tân Phú Đông](unit_report) tỉnh Tiền Giang
+    - huyện [Cái Bè](unit_report) tỉnh Tiền Giang
+    - [Thị xã Cai Lậy](unit_report) tỉnh Tiền Giang
+
+- intent: typing_category
+  examples: |
+    - [Doanh thu tài khoản chính](category_report)
+    - [Kết quả thực hiện các chỉ tiêu kinh doanh](category_report)
+    - [Thuê bao VLR](category_report)
+    - [Doanh thu thông tin](category_report)
+    - [Doanh thu bán hàng](category_report)
+    - [Phát triển thuê bao](category_report)
+    - [Lưu lượng](category_report)
+
+- intent: typing_type
+  examples: |
+    - [Viễn thông trả trước](type_report)
+    - [Viễn thông trả sau](type_report)
+    - [Viễn thông trả trước và trả sau](type_report)
+    - [Công nghệ thông tin trả trước](type_report)
+    - [Công nghệ thông tin trả sau](type_report)
+    - [Công nghệ thông tin trả trước và trả sau](type_report)
+    - [Đa dịch vụ trả trước](type_report)
+    - [Đa dịch vụ trả sau](type_report)
+    - [Đa dịch vụ trả trước và trả sau](type_report)
+    - [Bật máy](type_report)
+    - [3G](type_report)
+    - [4G](type_report)
+    - [Theo loại dịch vụ trả trước](type_report)
+    - [Theo loại dịch vụ trả sau](type_report)
+    - [Theo loại dịch vụ trả trước và trả sau](type_report)
+    - [Theo chi nhánh trả trước](type_report)
+    - [Theo chi nhánh trả sau](type_report)
+    - [Theo chi nhánh trả trước và trả sau](type_report)
+    - [Trả trước](type_report)
+    - [Trả sau](type_report)
+    - [Khách hàng cá nhân](type_report)
+    - [Khách hàng doanh nghiệp](type_report)
+    - [Thoại](type_report)
+    - [Data](type_report)
+
+
+- intent: typing_time
+  examples: |
+    - từ [ngày 7 đến ngày 9 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 9](day_m_end) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 1](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 3](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 4](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 5](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 6](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 7](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 8](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 9](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 10](month_report) [năm 2021](year_report)
+    - [ngày 1](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 2](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 3](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 4](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 5](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 6](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 7](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 8](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 9](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 10](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 11](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 12](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 13](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 14](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 15](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 11](month_report) [năm 2021](year_report)
+    - [ngày 16](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 17](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 18](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 19](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 20](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 21](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 22](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 23](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 24](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 25](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 26](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 27](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 28](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 29](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 30](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [ngày 31](day_report) [tháng 12](month_report) [năm 2021](year_report)
+    - [quý 1](quarter_report) [năm 2021](year_report)
+    - [quý 2](quarter_report) [năm 2021](year_report)
+    - [quý 3](quarter_report) [năm 2021](year_report)
+    - [quý 4](quarter_report) [năm 2021](year_report)
+    - [tháng 1](month_report) [năm 2021](year_report)
+    - [tháng 2](month_report) [năm 2021](year_report)
+    - [tháng 3](month_report) [năm 2021](year_report)
+    - [tháng 4](month_report) [năm 2021](year_report)
+    - [tháng 5](month_report) [năm 2021](year_report)
+    - [tháng 6](month_report) [năm 2021](year_report)
+    - [tháng 7](month_report) [năm 2021](year_report)
+    - [tháng 8](month_report) [năm 2021](year_report)
+    - [tháng 9](month_report) [năm 2021](year_report)
+    - [tháng 10](month_report) [năm 2021](year_report)
+    - [tháng 11](month_report) [năm 2021](year_report)
+    - [tháng 12](month_report) [năm 2021](year_report)
+    - [năm 2020](year_report)
+    - [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 10 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 20 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 28 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 đến ngày 30 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 9 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 3 đến ngày 10 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 9 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 7 đến ngày 10 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 25 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 2 đến ngày 10 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 20 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 30 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 28 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 30 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 11 đến ngày 31 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 30 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 28 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 31 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 30 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 31 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 30 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 30 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 30 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 31 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 31 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 31 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 đến ngày 31 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 25 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 30 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 đến ngày 20 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 20 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 đến ngày 25 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 25 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 1](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 đến ngày 10 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 1 đến ngày 1 tháng 2](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 1 đến ngày 1 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 1 đến ngày 1 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 1 đến ngày 1 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 1 đến ngày 1 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 1 đến ngày 1 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 1 đến ngày 30 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 20 tháng 2 đến ngày 20 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 25 tháng 2 đến ngày 25 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 3](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 30 tháng 2 đến ngày 30 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 1 tháng 3 đến ngày 1 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 5 tháng 3 đến ngày 5 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 9](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 11](day_m_end) [năm 2021](year_report)
+    - từ [ngày 10 tháng 3 đến ngày 10 tháng 12](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 tháng 3 đến ngày 15 tháng 4](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 tháng 3 đến ngày 15 tháng 5](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 tháng 3 đến ngày 15 tháng 6](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 tháng 3 đến ngày 15 tháng 7](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 tháng 3 đến ngày 15 tháng 8](day_m_end) [năm 2021](year_report)
+    - từ [ngày 15 tháng 3 đến ngày 15 tháng 9](day_m_end) [năm 2021](year_report)
+
+
+
+- intent: dayM_to_dayM
+  examples: | 
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Viễn thông trả trước](type_report) [Công ty 9](unit_report) từ [ngày 1 tháng 1 đến ngày 2 tháng 2](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Viễn thông trả sau](type_report) chi nhánh [Đồng Tháp](unit_report) từ [ngày 3 tháng 3 đến ngày 4 tháng 4](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Viễn thông trả trước và trả sau](type_report) chi nhánh [Trà Vinh](unit_report) từ [ngày 5 tháng 5 đến ngày 6 tháng 6](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả trước](type_report) chi nhánh [Vĩnh Long](unit_report) từ [ngày 7 tháng 7 đến ngày 8 tháng 8](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả sau](type_report) chi nhánh [Bến Tre](unit_report) từ [ngày 9 tháng 9 đến ngày 10 tháng 10](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả trước và trả sau](type_report) chi nhánh [Bến Tre](unit_report) từ [ngày 11 tháng 11 đến ngày 12 tháng 12](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Dịch vụ trả trước](type_report) chi nhánh [Tiền Giang](unit_report) từ [ngày 10 tháng 1 đến ngày 10 tháng 2](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Dịch vụ trả sau](type_report) chi nhánh [Phú Quốc](unit_report) từ [ngày 10 tháng 3 đến ngày 10 tháng 4](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) [Dịch vụ trả trước và trả sau](type_report) chi nhánh [An Giang](unit_report) từ [ngày 10 tháng 4 đến ngày 10 tháng 5](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Viễn thông trả trước](type_report) [Công ty 9](unit_report) từ [ngày 15 tháng 1 đến ngày 15 tháng 2](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Viễn thông trả sau](type_report) chi nhánh [Đồng Tháp](unit_report) từ [ngày 15 tháng 3 đến ngày 15 tháng 4](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Viễn thông trả trước và trả sau](type_report) chi nhánh [Trà Vinh](unit_report) từ [ngày 25 tháng 5 đến ngày 26 tháng 6](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả trước](type_report) chi nhánh [Vĩnh Long](unit_report) từ [ngày 17 tháng 7 đến ngày 18 tháng 8](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả sau](type_report) chi nhánh [Bến Tre](unit_report) từ [ngày 29 tháng 9 đến ngày 11 tháng 10](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Công nghệ thông tin trả trước và trả sau](type_report) chi nhánh [Bến Tre](unit_report) từ [ngày 21 tháng 11 đến ngày 2 tháng 12](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Dịch vụ trả trước](type_report) chi nhánh [Tiền Giang](unit_report) từ [ngày 16 tháng 1 đến ngày 19 tháng 2](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Dịch vụ trả sau](type_report) chi nhánh [Phú Quốc](unit_report) từ [ngày 11 tháng 3 đến ngày 11 tháng 4](day_m_end) [năm 2021](year_report)
+    - Báo cáo [doanh thu tài khoản chính](category_report) [Dịch vụ trả trước và trả sau](type_report) chi nhánh [An Giang](unit_report) từ [ngày 1 tháng 4 đến ngày 1 tháng 5](day_m_end) [năm 2021](year_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Phòng Khách hàng cá nhân](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [phòng khách hàng cá nhân](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Phòng Dịch vụ Kỹ thuật](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [phòng dịch vụ Kỹ thuật](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Phòng Tổng hợp](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [phòng tổng hợp](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Phòng Chăm sóc khách hàng](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [phòng chăm sóc khách hàng](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Phòng Kế toán](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [phòng kế toán](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Tổ Thẩm định](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [tổ thẩm định](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Tổ Xét thầu](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [tổ xét thầu](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành tỉnh An Giang](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Châu Đốc](unit_report) tỉnh An Giang
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Châu Đốc](unit_report) tỉnh An Giang
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Bạc Liêu](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Ngã Bảy](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Hà Tiên](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Duyên Hải](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Sa Đéc](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) [Thị xã Hồng Ngự](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) [Thành phố Cà Mau](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) [Thành phố Vị Thanh](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [lưu lượng](category_report) [Thành phố Rạch Giá](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) [Thành phố Sóc Trăng](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành A](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Long Mỹ](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Phụng Hiệp](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Vị Thuỷ](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành tỉnh Kiên Giang](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Phú Quốc](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [U Minh Thượng](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [An Biên](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [An Biên](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [An Minh](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [An Minh](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Giồng Riềng](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Giồng Riềng](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Gò Quao](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Gò Quao](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Hòn Đất](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Hòn Đất](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Kiên Lương](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Kiên Lương](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Tân Hiệp](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Vĩnh Thuận](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Kiên Hải](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Giang Thành](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Vĩnh Châu](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Mỹ Xuyên](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Kế Sách](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Long Phú](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Ngã Năm](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành tỉnh Sóc Trăng](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Thạnh Trị](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Trần Đề](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Mỹ Tú](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Cù Lao Dung](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Cờ Đỏ](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Phong Điền](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Vĩnh Thạnh](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Thới Lai](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Cầu Ngang](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Duyên Hải](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Trà Cú](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành tỉnh Trà Vinh](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Cầu Kè](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Càng Long](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Tiểu Cần](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Mang Thít](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Bình Minh](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Tam Bình](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Vũng Liêm](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Long Hồ](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Trà Ôn](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Bình Tân](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Hồng Ngự](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Lai Vung](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Lấp Vò](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Tam Nông](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Thanh Bình](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Tân Hồng](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Cao Lãnh](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành tỉnh Đồng Tháp](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Tháp Mười](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Ba Tri](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Bình Đại](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Châu Thành tỉnh Bến Tre](unit_report)
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Giồng Trôm](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [lưu lượng](category_report) huyện [Thạnh Phú](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [lưu lượng](category_report) quận [Bình Thủy](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) quận [Ninh Kiều](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) quận [Ô Môn](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) quận [Cái Răng](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [lưu lượng](category_report) quận [Thốt Nốt](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Vĩnh Lợi](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Hồng Dân](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Đông Hải](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Phước Long](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cái Nước](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cái Nước](unit_report) tỉnh cà mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Thới Bình](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Năm Căn](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Ngọc Hiển](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Trần Văn Thời](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Đầm Dơi](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [U Minh](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Phú Tân tỉnh Cà Mau](unit_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Châu Thành A](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Long Mỹ](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Phụng Hiệp](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Vị Thuỷ](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Châu Thành tỉnh Kiên Giang](unit_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Phú Quốc](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [U Minh Thượng](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [An Biên](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [An Biên](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [An Minh](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [An Minh](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Giồng Riềng](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Giồng Riềng](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Gò Quao](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Gò Quao](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Hòn Đất](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Hòn Đất](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Kiên Lương](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Kiên Lương](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Tân Hiệp](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Vĩnh Thuận](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Kiên Hải](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Giang Thành](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Vĩnh Châu](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Mỹ Xuyên](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Kế Sách](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Long Phú](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Ngã Năm](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Châu Thành tỉnh Sóc Trăng](unit_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Thạnh Trị](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Trần Đề](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Mỹ Tú](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cù Lao Dung](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cờ Đỏ](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Phong Điền](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Vĩnh Thạnh](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Thới Lai](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cầu Ngang](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Duyên Hải](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Trà Cú](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Châu Thành tỉnh Trà Vinh](unit_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cầu Kè](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Càng Long](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Tiểu Cần](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Mang Thít](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Bình Minh](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Tam Bình](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Vũng Liêm](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Long Hồ](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Trà Ôn](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Bình Tân](unit_report) tỉnh Vĩnh Long
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Hồng Ngự](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Lai Vung](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Lấp Vò](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Tam Nông](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Thanh Bình](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Tân Hồng](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Cao Lãnh](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Châu Thành tỉnh Đồng Tháp](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Tháp Mười](unit_report) tỉnh Đồng Tháp
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Ba Tri](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Bình Đại](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Châu Thành tỉnh Bến Tre](unit_report)
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Giồng Trôm](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) huyện [Thạnh Phú](unit_report) tỉnh Bến Tre
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) quận [Bình Thủy](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) quận [Ninh Kiều](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) quận [Ô Môn](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) quận [Cái Răng](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [doanh thu tài khoản chính](category_report) quận [Thốt Nốt](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Vĩnh Lợi](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Hồng Dân](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Đông Hải](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Phước Long](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Cái Nước](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Cái Nước](unit_report) tỉnh cà mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Thới Bình](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Năm Căn](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Ngọc Hiển](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Trần Văn Thời](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Đầm Dơi](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [U Minh](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [kết quả thực hiện các chỉ tiêu kinh doanh](category_report) huyện [Phú Tân tỉnh Cà Mau](unit_report)
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Vĩnh Lợi](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Hồng Dân](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Đông Hải](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Phước Long](unit_report) tỉnh Bạc Liêu
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Cái Nước](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Cái Nước](unit_report) tỉnh cà mau
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Thới Bình](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Năm Căn](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [Doanh thu thông tin](category_report) huyện [Ngọc Hiển](unit_report) tỉnh Cà Mau
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Châu Thành A](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Long Mỹ](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Phụng Hiệp](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Vị Thuỷ](unit_report) tỉnh Hậu Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Châu Thành tỉnh Kiên Giang](unit_report)
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Phú Quốc](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [U Minh Thượng](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [An Biên](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [An Biên](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [An Minh](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [An Minh](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Giồng Riềng](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Giồng Riềng](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Gò Quao](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Gò Quao](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Hòn Đất](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Hòn Đất](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Kiên Lương](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Kiên Lương](unit_report) tỉnh kiên giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Tân Hiệp](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Vĩnh Thuận](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Kiên Hải](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Giang Thành](unit_report) tỉnh Kiên Giang
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Vĩnh Châu](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Mỹ Xuyên](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Kế Sách](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Long Phú](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Ngã Năm](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Châu Thành tỉnh Sóc Trăng](unit_report)
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Thạnh Trị](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Trần Đề](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Mỹ Tú](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Cù Lao Dung](unit_report) tỉnh Sóc Trăng
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Cờ Đỏ](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Phong Điền](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Vĩnh Thạnh](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Thới Lai](unit_report) tỉnh Cần Thơ
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Cầu Ngang](unit_report) tỉnh Trà Vinh
+    - Xuất báo cáo [Doanh thu bán hàng](category_report) huyện [Duyên Hải](unit_report) tỉnh Trà Vinh
